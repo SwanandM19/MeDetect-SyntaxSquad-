@@ -1,3 +1,3 @@
-# Medetect: An AI-powered medical analysis tool.
+#Medetect: An AI-Powered Medical Assistance System
 
-# Web resources for Medetect.
+## Web resources for Medetect.
