@@ -1,4 +1,4 @@
-# Medetect: An AI-powered medical analysis tool
+# Medetect: An AI-Powered Medical Assistance System
 
 This document provides a detailed overview of the website flow for the Medetect project. The flow describes the user interaction from signing up or logging in to generating a medical report and displaying nearby hospitals and contacts.
 
