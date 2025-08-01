@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Skin Disease Detector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap for structure -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Roboto', sans-serif;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 0 25px rgba(0, 255, 200, 0.15);
+      margin-top: 1.5rem;
+    }
+
+    .btn-primary {
+      background-image: linear-gradient(to right, #ff0080, #7928ca);
+      border: none;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background-image: linear-gradient(to right, #7928ca, #ff0080);
+    }
+
+    input[type="file"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+
+    .progress {
+      background-color: #2c2c2c;
+      height: 30px;
+      border-radius: 30px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .rainbow-bar {
+      height: 100%;
+      line-height: 30px;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      background: linear-gradient(90deg,
+        #ff0000,
+        #ff9900,
+        #ffff00,
+        #33cc33,
+        #3399ff,
+        #9900cc
+      );
+      animation: rainbow 2s linear infinite;
+      background-size: 400% 100%;
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    .preview {
+      margin-top: 1rem;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .label {
+      font-size: 1.1rem;
+      color: #eee;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container text-center">
+    <h1>🔬 Skin Disease Detection AI</h1>
+
+    <form method="POST" enctype="multipart/form-data" class="card">
+      <input type="file" name="image" class="form-control mb-3" required>
+      <button type="submit" class="btn btn-primary px-4 py-2">🚀 Predict</button>
+    </form>
+
+    {% if image_url %}
+      <div class="card text-start">
+        <h3 class="text-center">📷 Uploaded Image</h3>
+        <img src="{{ image_url }}" class="preview" alt="Uploaded Image">
+      </div>
+    {% endif %}
+
+    {% if result %}
+      <div class="card text-start">
+        <h3 class="text-center">🔎 Prediction Result</h3>
+        {% for pred in result %}
+          <div class="label"><strong>Class:</strong> {{ pred.class }}</div>
+          <div class="progress">
+            <div class="rainbow-bar" style="width: {{ pred.confidence * 100 }}%">
+              {{ (pred.confidence * 100) | round(2) }}%
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- ✅ Botpress Chatbot Integration -->
+  <script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/08/01/14/20250801144611-3CUJ6AAB.js"></script>
+
+  <!-- ✅ Enable voice in Botpress Webchat -->
+  <script>
+    window.botpressWebChat.init({
+      botId: "424a7bc0-8cf9-467e-8e78-21cfb81c0891",       // Add your Bot ID
+      clientId: "a16a72be-b735-46dd-b0ca-078a6cdf71d6", // Add your Client ID if required
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      messagingUrl: "https://messaging.botpress.cloud",
+      enableVoice: true           // 🎤 Enables microphone in the chat
+    });
+  </script>
+
+</body>
+</html>
