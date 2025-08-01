@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import AIAssistant from "@/components/AiAssistant";
+import LanguageSwitcher from "../components/LanguageSwitcher"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// You can remove Geist if you're switching to Readex Pro only
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,11 +17,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        {/* ✅ Fonts should go here */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"  />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght@160..700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="font-readex">
+        <AIAssistant/>
         {children}
+        
+        <LanguageSwitcher />
       </body>
     </html>
   );
 }
+
