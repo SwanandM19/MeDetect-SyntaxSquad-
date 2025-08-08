@@ -3,6 +3,12 @@
 import { useState, useEffect, useRef } from "react"
 import { Globe } from "lucide-react"
 
+declare global {
+  interface Window {
+    googleTranslateElementInit: () => void;
+  }
+}
+
 const languages = [
   { code: "en", name: "English" },
   { code: "hi", name: "Hindi" },

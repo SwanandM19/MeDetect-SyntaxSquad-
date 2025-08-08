@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 
 
 export default function HomePage() {
@@ -35,17 +36,28 @@ export default function HomePage() {
             </a>
           </li>
           <li>
-            <a href="#login" className="px-4 py-2 hover:text-black hover:bg-white transition">
+            <Link href="/signin" className="px-4 py-2 hover:text-black hover:bg-white transition">
               LOGIN
-            </a>
+            </Link>
           </li>
         </ul>
 
+
         {/* Auth Buttons */}
         <div className="flex items-center space-x-3 bg-white/4 backdrop-blur-lg px-6 py-1 shadow-lg font-light">
-          <button className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition">SIGNUP</button>
+         <Link
+            href="/login"
+            className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition"
+          >
+            SIGNIN
+          </Link>
           <p className="text-white">|</p>
-          <button className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition">LOGIN</button>
+          <Link
+            href="/signin"
+            className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition"
+          >
+            LOGIN
+          </Link>
         </div>
       </nav>
 
@@ -165,7 +177,7 @@ export default function HomePage() {
 
       <section id="hero" className="relative min-h-screen overflow-hidden">
         {/* Background Spline Iframe - Interactive */}
-        <div className="absolute inset-0 w-full h-full z-0">
+        <div className="absolute inset-0 w-full h-full z-0 bg-black">
           <iframe
             src="https://my.spline.design/bodywithglowrings-kER2OLam6I5zC0dLEWRMtvfO/"
             frameBorder="0"

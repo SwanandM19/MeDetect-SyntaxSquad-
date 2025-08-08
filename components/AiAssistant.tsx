@@ -4,6 +4,24 @@ import { useRouter, usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, X, Bot, Mic, MicOff } from 'lucide-react';
 
+// Add these declarations only if they don't exist
+declare global {
+  interface Window {
+    SpeechRecognition: any;
+    webkitSpeechRecognition: any;
+  }
+type MySpeechRecognitionEvent = Event & {
+  results: SpeechRecognitionResultList;
+};
+
+  var SpeechRecognition: any;
+  var webkitSpeechRecognition: any;
+}
+type MySpeechRecognitionErrorEvent = Event & {
+  error: string;
+  message: string;
+};
+
 interface RouteKeywords {
   [key: string]: string[];
 }
@@ -69,7 +87,8 @@ const AIAssistant = () => {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [messages, setMessages] = useState<Message[]>([]);
   const [isListening, setIsListening] = useState<boolean>(false);
-  const speechRecognitionRef = useRef<SpeechRecognition | null>(null);
+  // const speechRecognitionRef = useRef<SpeechRecognition | null>(null);
+  const speechRecognitionRef = useRef<any>(null);
   const speechSynthesisRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   const detectRouteChange = useCallback((input: string): string | null => {
@@ -156,14 +175,14 @@ const AIAssistant = () => {
         recognition.interimResults = true;
         recognition.lang = 'en-US';
 
-        recognition.onresult = (event: SpeechRecognitionEvent) => {
+        recognition.onresult = (event: MySpeechRecognitionEvent) =>{
           const transcript = Array.from(event.results)
             .map(result => result[0].transcript)
             .join('');
           setInputText(transcript);
         };
 
-        recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
+        recognition.onerror = (event: MySpeechRecognitionErrorEvent) =>  {
           console.error('Speech recognition error:', event.error);
           setIsListening(false);
         };
@@ -241,7 +260,7 @@ const AIAssistant = () => {
       if (aiData.response) {
         setResponse(aiData.response);
         speak(aiData.response);
-        setMessages(prev => [...prev, { text: aiData.response, sender: 'ai' }]);
+        setMessages(prev => [...prev, { text: aiData.response ?? '', sender: 'ai' }]);
         setInputText('');
       }
     } catch (error) {
