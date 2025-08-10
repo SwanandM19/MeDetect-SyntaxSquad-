@@ -46,14 +46,14 @@ export default function HomePage() {
         {/* Auth Buttons */}
         <div className="flex items-center space-x-3 bg-white/4 backdrop-blur-lg px-6 py-1 shadow-lg font-light">
          <Link
-            href="/login"
+            href="/signin"
             className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition"
           >
             SIGNIN
           </Link>
           <p className="text-white">|</p>
           <Link
-            href="/signin"
+            href="/login"
             className="px-4 py-2 text-sm text-white hover:text-black hover:bg-white transition"
           >
             LOGIN

@@ -705,7 +705,7 @@ export default function VoiceAgent() {
   // call Groq endpoint
   const callGroq = useCallback(
     async (userText: string, pageSchema: PageSchema | null): Promise<LLMAction | null> => {
-      const key = "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";
+      const key =process.env.NEXT_PUBLIC_GROQ_API_KEY;
       if (!key) {
         setStatus("Missing Groq API key (NEXT_PUBLIC_GROQ_API_KEY).");
         return null;
