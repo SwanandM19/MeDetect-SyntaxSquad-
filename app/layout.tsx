@@ -30,7 +30,7 @@ export default function RootLayout({
         <AIAssistant/>
         {children}
         
-        <LanguageSwitcher />
+        <LanguageSwitcher />  
       </body>
     </html>
   );

@@ -1,0 +1,151 @@
+
+[
+  {
+    "url": "http://localhost:3000/dashboard",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Cough and Fever",
+        "href": "/skin"
+      },
+      {
+        "type": "link",
+        "label": "Stomach Ache due to sunstroke",
+        "href": "/skin"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3000/",
+    "elements": [
+      {
+        "type": "link",
+        "label": "HOME",
+        "href": "/#hero"
+      },
+      {
+        "type": "link",
+        "label": "ABOUT",
+        "href": "/#about"
+      },
+      {
+        "type": "link",
+        "label": "WHY US",
+        "href": "/#whyus"
+      },
+      {
+        "type": "link",
+        "label": "LOGIN",
+        "href": "/signin"
+      },
+      {
+        "type": "link",
+        "label": "SIGNIN",
+        "href": "/login"
+      },
+      {
+        "type": "link",
+        "label": "LOGIN",
+        "href": "/signin"
+      },
+      {
+        "type": "button",
+        "label": "GET STARTED"
+      },
+      {
+        "type": "button",
+        "label": "GET STARTED"
+      },
+      {
+        "type": "button",
+        "label": "START NOW"
+      },
+      {
+        "type": "button",
+        "label": "START NOW"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3000/analytics",
+    "elements": []
+  },
+  {
+    "url": "http://localhost:3000/skin",
+    "elements": [
+      {
+        "type": "button",
+        "label": "«"
+      },
+      {
+        "type": "button",
+        "label": "Start"
+      },
+      {
+        "type": "button",
+        "label": "Get Hospital Help"
+      },
+      {
+        "type": "button",
+        "label": "QR Generate"
+      },
+      {
+        "type": "input",
+        "inputType": "file",
+        "placeholder": null
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3000/signin",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Forgot password?",
+        "href": "/forgot-password"
+      },
+      {
+        "type": "button",
+        "label": "Login"
+      },
+      {
+        "type": "input",
+        "inputType": "email",
+        "placeholder": "Enter your email"
+      },
+      {
+        "type": "input",
+        "inputType": "password",
+        "placeholder": "Enter your password"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3000/login",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Forgot password?",
+        "href": "/forgot-password"
+      },
+      {
+        "type": "button",
+        "label": "Login"
+      },
+      {
+        "type": "input",
+        "inputType": "email",
+        "placeholder": "Enter your email"
+      },
+      {
+        "type": "input",
+        "inputType": "password",
+        "placeholder": "Enter your password"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3000/forgot-password",
+    "elements": []
+  }
+]

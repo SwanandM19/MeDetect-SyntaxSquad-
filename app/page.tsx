@@ -264,10 +264,10 @@ export default function HomePage() {
 
 
       {/* Footer */}
-      <footer className="px-6 py-16 bg-white text-gray-700 shadow-inner border-t">
+      {/* <footer className="px-6 py-16 bg-white text-gray-700 shadow-inner border-t">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm">
 
-          {/* Left Section */}
+     
           <div>
             <p className="mb-4">
               Appland is completely creative, lightweight,<br />
@@ -293,7 +293,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* About */}
+    
           <div>
             <h4 className="font-semibold text-black mb-4">About</h4>
             <ul className="space-y-2 text-gray-500">
@@ -304,7 +304,7 @@ export default function HomePage() {
             </ul>
           </div>
 
-          {/* Support */}
+   
           <div>
             <h4 className="font-semibold text-black mb-4">Support</h4>
             <ul className="space-y-2 text-gray-500">
@@ -316,7 +316,7 @@ export default function HomePage() {
             </ul>
           </div>
 
-          {/* Contact */}
+     
           <div>
             <h4 className="font-semibold text-black mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-500">
@@ -328,7 +328,7 @@ export default function HomePage() {
           </div>
 
         </div>
-      </footer>
+      </footer> */}
 
     </div>
   );
