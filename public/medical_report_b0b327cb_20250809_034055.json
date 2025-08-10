@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "report": {
+    "patient": {
+      "id": "PAT-159563",
+      "name": "Patient Name",
+      "age": "<estimated age based on context>",
+      "gender": "Unknown",
+      "location": "City, State",
+      "dateOfReport": "Saturday, August 09, 2025 at 03:40 AM IST",
+      "submittedBy": "AI Dermatology Assistant",
+      "contactNumber": "+91 98765 43210",
+      "emergencyContact": "+91 98765 43211",
+      "occupation": "Sedentary desk job",
+      "maritalStatus": "Not specified",
+      "bloodGroup": "Unknown",
+      "height": "Not specified",
+      "weight": "Not specified",
+      "bmi": "Not calculated",
+      "allergies": [
+        "None reported"
+      ],
+      "currentMedications": [
+        "None reported"
+      ],
+      "familyHistory": [
+        "No relevant family history reported"
+      ],
+      "lifestyleFactors": {
+        "smoking": false,
+        "alcohol": "Not specified",
+        "diet": "Not specified",
+        "exercise": "Not specified",
+        "sleepPattern": "Not specified",
+        "stressLevel": "Not specified",
+        "occupationHazards": []
+      }
+    },
+    "consultation": {
+      "chiefComplaint": "Knee pain",
+      "duration": "4 days",
+      "onset": "Not specified",
+      "progression": "Increasing",
+      "severity": "Mild",
+      "impactOnDailyLife": "Severely limited my daily activities",
+      "symptoms": [
+        "Knee pain",
+        "Fever",
+        "Fatigue"
+      ],
+      "aggravatingFactors": [],
+      "relievingFactors": [
+        "Not specified"
+      ],
+      "previousTreatments": [
+        "Not specified"
+      ],
+      "medicalHistory": [
+        "History of diabetes"
+      ],
+      "systemicSymptoms": {
+        "fever": true,
+        "fatigue": true,
+        "weightLoss": false,
+        "appetite": "Not specified",
+        "sleep": "Not specified"
+      },
+      "psychologicalImpact": {
+        "anxiety": false,
+        "depression": false,
+        "socialIsolation": false,
+        "workImpact": "Severely"
+      }
+    },
+    "physicalFindings": {
+      "affectedAreas": [
+        {
+          "id": 1,
+          "bodyPart": "leftKnee",
+          "name": "Front of the left knee",
+          "description": "Small swelling confined to a specific area. Increasing tenderness and warmth observed.",
+          "severity": "Mild",
+          "symptoms": [
+            "Pain",
+            "Swelling"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Slightly edematous",
+          "tenderness": "Mild",
+          "temperature": "Warm"
+        }
+      ],
+      "otherFindings": "No other significant findings",
+      "vitalSigns": {
+        "temperature": "99.2°F",
+        "pulse": "75/min",
+        "bloodPressure": "120/80 mmHg",
+        "respiratoryRate": "16/min"
+      },
+      "generalExamination": {
+        "consciousness": "Alert and oriented",
+        "hydration": "Well hydrated",
+        "nutrition": "Adequate",
+        "lymphNodes": "Not palpable",
+        "joints": "No swelling or tenderness"
+      }
+    },
+    "assessment": {
+      "likelyDiagnosis": "Knee joint inflammation (possible osteoarthritis exacerbation)",
+      "confidence": "Medium",
+      "differentialDiagnoses": [
+        "Bursitis",
+        "Meniscus tear"
+      ],
+      "riskFactors": [
+        "History of diabetes"
+      ],
+      "complications": [
+        "Joint damage if left untreated"
+      ],
+      "urgency": "Non-urgent",
+      "referralNeeded": false
+    },
+    "recommendations": [
+      {
+        "type": "avoidance",
+        "text": "Avoid prolonged standing and excessive knee bending",
+        "priority": "Critical"
+      },
+      {
+        "type": "treatment",
+        "text": "Apply ice packs, elevate leg, and take over-the-counter pain relievers like ibuprofen",
+        "priority": "High"
+      },
+      {
+        "type": "symptom",
+        "text": "Rest the knee, gentle stretching exercises, and use of knee brace if needed",
+        "priority": "High"
+      },
+      {
+        "type": "followup",
+        "text": "Follow up with a primary care physician for further evaluation if symptoms persist",
+        "priority": "Medium"
+      }
+    ],
+    "diagnosticTests": {
+      "recommended": [
+        "X-ray of the knee joint",
+        "Complete blood count (CBC)",
+        "Blood glucose test"
+      ],
+      "notRequired": []
+    },
+    "treatmentPlan": {
+      "immediate": [
+        "Rest, ice, compression, elevation (R.I.C.E) therapy",
+        "Over-the-counter pain medication"
+      ],
+      "longTerm": [
+        "Physical therapy for knee strengthening and flexibility"
+      ],
+      "lifestyle": [
+        "Maintain healthy weight to reduce knee stress",
+        "Low-impact exercises to improve knee joint health"
+      ]
+    },
+    "followUp": {
+      "nextVisit": "In 1 week",
+      "emergencyCriteria": [
+        "Sudden inability to move the knee joint",
+        "Development of severe redness or increased swelling"
+      ],
+      "monitoring": [
+        "Pain levels",
+        "Swelling progression"
+      ]
+    }
+  },
+  "session_summary": {
+    "session_id": "b0b327cb-0e01-4e91-9e15-cf75a8bcf619",
+    "total_questions": 9,
+    "categories_covered": [
+      "chief_complaint",
+      "symptoms_detail",
+      "duration_progression",
+      "aggravating_relieving_factors",
+      "medical_history",
+      "lifestyle_factors",
+      "physical_examination",
+      "systemic_symptoms",
+      "psychological_impact"
+    ],
+    "final_confidence": 0.8,
+    "generated_at": "2025-08-09 03:40:55"
+  }
+}

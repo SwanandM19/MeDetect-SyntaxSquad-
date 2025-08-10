@@ -1,0 +1,196 @@
+{
+  "success": true,
+  "report": {
+    "patient": {
+      "id": "PAT-958884",
+      "name": "Patient Name",
+      "age": "Adult",
+      "gender": "Male",
+      "location": "City, State",
+      "dateOfReport": "Saturday, August 09, 2025 at 09:05 PM IST",
+      "submittedBy": "AI Dermatology Assistant",
+      "contactNumber": "+91 98765 43210",
+      "emergencyContact": "+91 98765 43211",
+      "occupation": "Not specified",
+      "maritalStatus": "Not specified",
+      "bloodGroup": "Unknown",
+      "height": "Not specified",
+      "weight": "Not specified",
+      "bmi": "Not calculated",
+      "allergies": [
+        "None reported"
+      ],
+      "currentMedications": [
+        "None reported"
+      ],
+      "familyHistory": [
+        "No relevant family history reported"
+      ],
+      "lifestyleFactors": {
+        "smoking": false,
+        "alcohol": "Occasionally",
+        "diet": "General diet",
+        "exercise": "Regularly",
+        "sleepPattern": "Normal",
+        "stressLevel": "Mild",
+        "occupationHazards": [
+          "None reported"
+        ]
+      }
+    },
+    "consultation": {
+      "chiefComplaint": "Cough",
+      "duration": "<less than 2 weeks>",
+      "onset": "Gradual",
+      "progression": "Stable",
+      "severity": "Mild",
+      "impactOnDailyLife": "Minimal",
+      "symptoms": [
+        "Cough",
+        "Fever"
+      ],
+      "aggravatingFactors": [
+        "Cold weather",
+        "Smoking"
+      ],
+      "relievingFactors": [
+        "Warm liquids",
+        "Pain relievers"
+      ],
+      "previousTreatments": [
+        "Over-the-counter medications"
+      ],
+      "medicalHistory": [
+        "Asthma"
+      ],
+      "systemicSymptoms": {
+        "fever": true,
+        "fatigue": false,
+        "weightLoss": false,
+        "appetite": "Normal",
+        "sleep": "Normal"
+      },
+      "psychologicalImpact": {
+        "anxiety": false,
+        "depression": false,
+        "socialIsolation": false,
+        "workImpact": "None"
+      }
+    },
+    "physicalFindings": {
+      "affectedAreas": [
+        {
+          "id": 1,
+          "bodyPart": "Chest",
+          "name": "Dry Cough Region",
+          "description": "Dry, hacking cough without phlegm",
+          "severity": "Mild",
+          "symptoms": [
+            "Cough"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Normal",
+          "tenderness": "None",
+          "temperature": "Normal"
+        }
+      ],
+      "otherFindings": "Some congestion in the chest area",
+      "vitalSigns": {
+        "temperature": "98.6°F",
+        "pulse": "72/min",
+        "bloodPressure": "120/80 mmHg",
+        "respiratoryRate": "16/min"
+      },
+      "generalExamination": {
+        "consciousness": "Alert and oriented",
+        "hydration": "Well hydrated",
+        "nutrition": "Adequate",
+        "lymphNodes": "Not palpable",
+        "joints": "No swelling or tenderness"
+      }
+    },
+    "assessment": {
+      "likelyDiagnosis": "Acute bronchitis",
+      "confidence": "High",
+      "differentialDiagnoses": [
+        "Acute sinusitis",
+        "Pneumonia"
+      ],
+      "riskFactors": [
+        "Smoking"
+      ],
+      "complications": [
+        "Pneumonia"
+      ],
+      "urgency": "Non-urgent",
+      "referralNeeded": false
+    },
+    "recommendations": [
+      {
+        "type": "avoidance",
+        "text": "Avoid exposure to cold air or smoke",
+        "priority": "Critical"
+      },
+      {
+        "type": "treatment",
+        "text": "Use over-the-counter cough medications and warm liquids",
+        "priority": "High"
+      },
+      {
+        "type": "symptom",
+        "text": "Manage symptoms with pain relievers and rest",
+        "priority": "High"
+      },
+      {
+        "type": "followup",
+        "text": "Follow up with a healthcare provider in 7-10 days",
+        "priority": "Medium"
+      }
+    ],
+    "diagnosticTests": {
+      "recommended": [
+        "Chest X-ray",
+        "Complete Blood Count (CBC)"
+      ],
+      "notRequired": [
+        "Sputum culture",
+        "Pulmonary function tests"
+      ]
+    },
+    "treatmentPlan": {
+      "immediate": [
+        "Use over-the-counter medications and warm liquids"
+      ],
+      "longTerm": [
+        "Practice good hygiene and avoid exposure to cold air or smoke"
+      ],
+      "lifestyle": [
+        "Maintain a healthy diet and exercise regularly"
+      ]
+    },
+    "followUp": {
+      "nextVisit": "7-10 days",
+      "emergencyCriteria": [
+        "Increasing cough, fever, or shortness of breath",
+        "Severe chest pain"
+      ],
+      "monitoring": [
+        "Monitor for worsening symptoms, especially cough, fever, or shortness of breath"
+      ]
+    }
+  },
+  "session_summary": {
+    "session_id": "53077cc6-5981-4061-821f-191e41cf5d4a",
+    "total_questions": 3,
+    "categories_covered": [
+      "chief_complaint",
+      "symptoms_detail",
+      "duration_progression"
+    ],
+    "final_confidence": 0.7,
+    "generated_at": "2025-08-09 21:05:58"
+  }
+}
