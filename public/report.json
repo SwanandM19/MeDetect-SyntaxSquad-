@@ -2,17 +2,17 @@
   "success": true,
   "report": {
     "patient": {
-      "id": "PAT-159563",
-      "name": "Patient Name",
-      "age": "<estimated age based on context>",
-      "gender": "Unknown",
-      "location": "City, State",
-      "dateOfReport": "Saturday, August 09, 2025 at 03:40 AM IST",
+      "id": "PAT-518311",
+      "name": "John Doe",
+      "age": 35,
+      "gender": "Male",
+      "location": "New Delhi, India",
+      "dateOfReport": "Sunday, August 10, 2025 at 04:22 PM IST",
       "submittedBy": "AI Dermatology Assistant",
       "contactNumber": "+91 98765 43210",
       "emergencyContact": "+91 98765 43211",
-      "occupation": "Sedentary desk job",
-      "maritalStatus": "Not specified",
+      "occupation": "Software Engineer",
+      "maritalStatus": "Married",
       "bloodGroup": "Unknown",
       "height": "Not specified",
       "weight": "Not specified",
@@ -28,48 +28,50 @@
       ],
       "lifestyleFactors": {
         "smoking": false,
-        "alcohol": "Not specified",
-        "diet": "Not specified",
-        "exercise": "Not specified",
-        "sleepPattern": "Not specified",
-        "stressLevel": "Not specified",
-        "occupationHazards": []
+        "alcohol": "Socially",
+        "diet": "Vegetarian",
+        "exercise": "Regularly",
+        "sleepPattern": "Normal",
+        "stressLevel": "Moderate",
+        "occupationHazards": [
+          "Computer usage for extended periods"
+        ]
       }
     },
     "consultation": {
       "chiefComplaint": "Knee pain",
-      "duration": "4 days",
-      "onset": "Not specified",
-      "progression": "Increasing",
+      "duration": "Less than a week",
+      "onset": "Gradual",
+      "progression": "Stable",
       "severity": "Mild",
-      "impactOnDailyLife": "Severely limited my daily activities",
+      "impactOnDailyLife": "Painful walking",
       "symptoms": [
-        "Knee pain",
-        "Fever",
-        "Fatigue"
+        "Knee pain"
       ],
-      "aggravatingFactors": [],
+      "aggravatingFactors": [
+        "Walking"
+      ],
       "relievingFactors": [
-        "Not specified"
+        "Rest"
       ],
       "previousTreatments": [
-        "Not specified"
+        "None reported"
       ],
       "medicalHistory": [
-        "History of diabetes"
+        "No relevant medical history reported"
       ],
       "systemicSymptoms": {
-        "fever": true,
-        "fatigue": true,
+        "fever": false,
+        "fatigue": false,
         "weightLoss": false,
-        "appetite": "Not specified",
-        "sleep": "Not specified"
+        "appetite": "Normal",
+        "sleep": "Normal"
       },
       "psychologicalImpact": {
         "anxiety": false,
         "depression": false,
         "socialIsolation": false,
-        "workImpact": "Severely"
+        "workImpact": "None"
       }
     },
     "physicalFindings": {
@@ -77,26 +79,42 @@
         {
           "id": 1,
           "bodyPart": "leftKnee",
-          "name": "Front of the left knee",
-          "description": "Small swelling confined to a specific area. Increasing tenderness and warmth observed.",
+          "name": "Left knee",
+          "description": "Top inner knee",
           "severity": "Mild",
           "symptoms": [
-            "Pain",
-            "Swelling"
+            "Knee pain"
           ],
           "images": [],
           "distribution": "Localized",
           "symmetry": "Symmetric",
           "borders": "Well-defined",
-          "texture": "Slightly edematous",
+          "texture": "Normal",
           "tenderness": "Mild",
-          "temperature": "Warm"
+          "temperature": "Normal"
+        },
+        {
+          "id": 2,
+          "bodyPart": "leftKnee",
+          "name": "Left knee",
+          "description": "Top inner knee",
+          "severity": "Mild",
+          "symptoms": [
+            "Knee pain"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Normal",
+          "tenderness": "Mild",
+          "temperature": "Normal"
         }
       ],
-      "otherFindings": "No other significant findings",
+      "otherFindings": "No significant other findings.",
       "vitalSigns": {
-        "temperature": "99.2°F",
-        "pulse": "75/min",
+        "temperature": "98.6°F",
+        "pulse": "72/min",
         "bloodPressure": "120/80 mmHg",
         "respiratoryRate": "16/min"
       },
@@ -109,17 +127,19 @@
       }
     },
     "assessment": {
-      "likelyDiagnosis": "Knee joint inflammation (possible osteoarthritis exacerbation)",
-      "confidence": "Medium",
+      "likelyDiagnosis": "Patellofemoral pain syndrome",
+      "confidence": "High",
       "differentialDiagnoses": [
-        "Bursitis",
-        "Meniscus tear"
+        "Osteoarthritis",
+        "Bursitis"
       ],
       "riskFactors": [
-        "History of diabetes"
+        "Occupational hazards",
+        "Knee trauma"
       ],
       "complications": [
-        "Joint damage if left untreated"
+        "Chronic pain",
+        "Limited mobility"
       ],
       "urgency": "Non-urgent",
       "referralNeeded": false
@@ -127,73 +147,64 @@
     "recommendations": [
       {
         "type": "avoidance",
-        "text": "Avoid prolonged standing and excessive knee bending",
+        "text": "Avoid activities that exacerbate knee pain",
         "priority": "Critical"
       },
       {
         "type": "treatment",
-        "text": "Apply ice packs, elevate leg, and take over-the-counter pain relievers like ibuprofen",
+        "text": "Apply ice and elevate the knee to reduce pain",
         "priority": "High"
       },
       {
         "type": "symptom",
-        "text": "Rest the knee, gentle stretching exercises, and use of knee brace if needed",
+        "text": "Use pain relievers as needed",
         "priority": "High"
       },
       {
         "type": "followup",
-        "text": "Follow up with a primary care physician for further evaluation if symptoms persist",
+        "text": "Schedule a follow-up appointment in 1 week",
         "priority": "Medium"
       }
     ],
     "diagnosticTests": {
       "recommended": [
-        "X-ray of the knee joint",
-        "Complete blood count (CBC)",
-        "Blood glucose test"
+        "Physical therapy assessment"
       ],
-      "notRequired": []
+      "notRequired": [
+        "Imaging studies"
+      ]
     },
     "treatmentPlan": {
       "immediate": [
-        "Rest, ice, compression, elevation (R.I.C.E) therapy",
-        "Over-the-counter pain medication"
+        "Apply ice and elevate the knee to reduce pain"
       ],
       "longTerm": [
-        "Physical therapy for knee strengthening and flexibility"
+        "Physical therapy to improve knee mobility"
       ],
       "lifestyle": [
-        "Maintain healthy weight to reduce knee stress",
-        "Low-impact exercises to improve knee joint health"
+        "Avoid activities that exacerbate knee pain"
       ]
     },
     "followUp": {
       "nextVisit": "In 1 week",
       "emergencyCriteria": [
-        "Sudden inability to move the knee joint",
-        "Development of severe redness or increased swelling"
+        "Increased pain, swelling, or difficulty moving the knee"
       ],
       "monitoring": [
-        "Pain levels",
-        "Swelling progression"
+        "Knee pain, swelling, and mobility"
       ]
     }
   },
   "session_summary": {
-    "session_id": "b0b327cb-0e01-4e91-9e15-cf75a8bcf619",
-    "total_questions": 9,
+    "session_id": "64d80276-01ab-4ced-bafa-3602f1de7b4e",
+    "total_questions": 4,
     "categories_covered": [
       "chief_complaint",
       "symptoms_detail",
       "duration_progression",
-      "aggravating_relieving_factors",
-      "medical_history",
-      "lifestyle_factors",
-      "physical_examination",
-      "systemic_symptoms",
-      "psychological_impact"
+      "aggravating_relieving_factors"
     ],
     "final_confidence": 0.8,
-    "generated_at": "2025-08-09 03:40:55"
+    "generated_at": "2025-08-10 16:23:03"
   }
 }

@@ -1,0 +1,216 @@
+{
+  "success": true,
+  "report": {
+    "patient": {
+      "id": "PAT-653642",
+      "name": "Not specified",
+      "age": 35,
+      "gender": "Unknown",
+      "location": "City, State",
+      "dateOfReport": "Saturday, August 09, 2025 at 09:01 PM IST",
+      "submittedBy": "AI Dermatology Assistant",
+      "contactNumber": "+91 98765 43210",
+      "emergencyContact": "+91 98765 43211",
+      "occupation": "Not specified",
+      "maritalStatus": "Not specified",
+      "bloodGroup": "Unknown",
+      "height": "Not specified",
+      "weight": "Not specified",
+      "bmi": "Not calculated",
+      "allergies": [
+        "None reported"
+      ],
+      "currentMedications": [
+        "None reported"
+      ],
+      "familyHistory": [
+        "No relevant family history reported"
+      ],
+      "lifestyleFactors": {
+        "smoking": false,
+        "alcohol": "Not specified",
+        "diet": "Not specified",
+        "exercise": "Not specified",
+        "sleepPattern": "Not specified",
+        "stressLevel": "Not specified",
+        "occupationHazards": []
+      }
+    },
+    "consultation": {
+      "chiefComplaint": "Cough",
+      "duration": "More than 2 weeks",
+      "onset": "Gradual",
+      "progression": "Persistent",
+      "severity": "Mild",
+      "impactOnDailyLife": "Interferes with daily activities",
+      "symptoms": [
+        "Cough",
+        "Phlegm/mucus"
+      ],
+      "aggravatingFactors": [
+        "Physical activity"
+      ],
+      "relievingFactors": [
+        "Resting or lying down"
+      ],
+      "previousTreatments": [
+        "None reported"
+      ],
+      "medicalHistory": [
+        "Existing medical conditions"
+      ],
+      "systemicSymptoms": {
+        "fever": false,
+        "fatigue": false,
+        "weightLoss": false,
+        "appetite": "Normal",
+        "sleep": "Normal"
+      },
+      "psychologicalImpact": {
+        "anxiety": false,
+        "depression": false,
+        "socialIsolation": false,
+        "workImpact": "None"
+      }
+    },
+    "physicalFindings": {
+      "affectedAreas": [
+        {
+          "id": 1,
+          "bodyPart": "Throat",
+          "name": "Throat discomfort",
+          "description": "Coughing with phlegm/mucus",
+          "severity": "Mild",
+          "symptoms": [
+            "Cough",
+            "Phlegm/mucus"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Normal",
+          "tenderness": "None",
+          "temperature": "Normal"
+        },
+        {
+          "id": 2,
+          "bodyPart": "Chest",
+          "name": "Chest discomfort",
+          "description": "Coughing when lying down",
+          "severity": "Mild",
+          "symptoms": [
+            "Cough"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Normal",
+          "tenderness": "None",
+          "temperature": "Normal"
+        }
+      ],
+      "otherFindings": "None",
+      "vitalSigns": {
+        "temperature": "98.6°F",
+        "pulse": "72/min",
+        "bloodPressure": "120/80 mmHg",
+        "respiratoryRate": "16/min"
+      },
+      "generalExamination": {
+        "consciousness": "Alert and oriented",
+        "hydration": "Well hydrated",
+        "nutrition": "Adequate",
+        "lymphNodes": "Not palpable",
+        "joints": "No swelling or tenderness"
+      }
+    },
+    "assessment": {
+      "likelyDiagnosis": "Chronic cough syndrome",
+      "confidence": "Medium",
+      "differentialDiagnoses": [
+        "Acute bronchitis",
+        "Chronic bronchitis"
+      ],
+      "riskFactors": [
+        "Existing medical conditions",
+        "Smoking"
+      ],
+      "complications": [
+        "Pneumonia",
+        "Asthma"
+      ],
+      "urgency": "Non-urgent",
+      "referralNeeded": false
+    },
+    "recommendations": [
+      {
+        "type": "avoidance",
+        "text": "Avoid smoking and secondhand smoke",
+        "priority": "Critical"
+      },
+      {
+        "type": "treatment",
+        "text": "Prescribe cough medication and antibiotics if necessary",
+        "priority": "High"
+      },
+      {
+        "type": "symptom",
+        "text": "Use a humidifier and avoid irritants",
+        "priority": "High"
+      },
+      {
+        "type": "followup",
+        "text": "Schedule a follow-up visit in 2 weeks",
+        "priority": "Medium"
+      }
+    ],
+    "diagnosticTests": {
+      "recommended": [
+        "Chest X-ray",
+        "Pulse oximetry"
+      ],
+      "notRequired": [
+        "Blood work",
+        "Spirometry"
+      ]
+    },
+    "treatmentPlan": {
+      "immediate": [
+        "Prescribe cough medication and antibiotics if necessary"
+      ],
+      "longTerm": [
+        "Consider pulmonary rehabilitation"
+      ],
+      "lifestyle": [
+        "Quit smoking",
+        "Avoid secondhand smoke"
+      ]
+    },
+    "followUp": {
+      "nextVisit": "2 weeks",
+      "emergencyCriteria": [
+        "Fever over 102°F",
+        "Shortness of breath"
+      ],
+      "monitoring": [
+        "Cough frequency and severity",
+        "Respiratory rate"
+      ]
+    }
+  },
+  "session_summary": {
+    "session_id": "b4802482-4f95-4ee0-a8b1-b807ec30d5b7",
+    "total_questions": 5,
+    "categories_covered": [
+      "chief_complaint",
+      "symptoms_detail",
+      "duration_progression",
+      "aggravating_relieving_factors",
+      "medical_history"
+    ],
+    "final_confidence": 0.8,
+    "generated_at": "2025-08-09 21:01:31"
+  }
+}

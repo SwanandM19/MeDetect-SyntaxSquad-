@@ -1,0 +1,194 @@
+{
+  "success": true,
+  "report": {
+    "patient": {
+      "id": "PAT-365646",
+      "name": "Patient Name",
+      "age": 30,
+      "gender": "Male",
+      "location": "City, State",
+      "dateOfReport": "Saturday, August 09, 2025 at 04:24 PM IST",
+      "submittedBy": "AI Dermatology Assistant",
+      "contactNumber": "+91 98765 43210",
+      "emergencyContact": "+91 98765 43211",
+      "occupation": "Not specified",
+      "maritalStatus": "Not specified",
+      "bloodGroup": "Unknown",
+      "height": "Not specified",
+      "weight": "Not specified",
+      "bmi": "Not calculated",
+      "allergies": [
+        "None reported"
+      ],
+      "currentMedications": [
+        "None reported"
+      ],
+      "familyHistory": [
+        "No relevant family history reported"
+      ],
+      "lifestyleFactors": {
+        "smoking": false,
+        "alcohol": "Not specified",
+        "diet": "Not specified",
+        "exercise": "Not specified",
+        "sleepPattern": "Not specified",
+        "stressLevel": "Not specified",
+        "occupationHazards": [
+          "Not specified"
+        ]
+      }
+    },
+    "consultation": {
+      "chiefComplaint": "Cough with fever for 2 days",
+      "duration": "2 days",
+      "onset": "Sudden",
+      "progression": "Stable",
+      "severity": "Mild",
+      "impactOnDailyLife": "Not specified",
+      "symptoms": [
+        "Cough",
+        "Fever",
+        "Phlegm production"
+      ],
+      "aggravatingFactors": [
+        "Dry air"
+      ],
+      "relievingFactors": [
+        "Warm liquids"
+      ],
+      "previousTreatments": [
+        "None reported"
+      ],
+      "medicalHistory": [
+        "None reported"
+      ],
+      "systemicSymptoms": {
+        "fever": true,
+        "fatigue": false,
+        "weightLoss": false,
+        "appetite": "Normal",
+        "sleep": "Not specified"
+      },
+      "psychologicalImpact": {
+        "anxiety": false,
+        "depression": false,
+        "socialIsolation": false,
+        "workImpact": "Not specified"
+      }
+    },
+    "physicalFindings": {
+      "affectedAreas": [
+        {
+          "id": 1,
+          "bodyPart": "chest",
+          "name": "Upper Respiratory Tract",
+          "description": "Cough with phlegm production",
+          "severity": "Mild",
+          "symptoms": [
+            "Cough"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Not applicable",
+          "texture": "Not applicable",
+          "tenderness": "Not applicable",
+          "temperature": "Not applicable"
+        }
+      ],
+      "otherFindings": "Not applicable",
+      "vitalSigns": {
+        "temperature": "99.5°F",
+        "pulse": "72/min",
+        "bloodPressure": "120/80 mmHg",
+        "respiratoryRate": "18/min"
+      },
+      "generalExamination": {
+        "consciousness": "Alert and oriented",
+        "hydration": "Well hydrated",
+        "nutrition": "Adequate",
+        "lymphNodes": "Not palpable",
+        "joints": "No swelling or tenderness"
+      }
+    },
+    "assessment": {
+      "likelyDiagnosis": "Acute Bronchitis or Upper Respiratory Infection",
+      "confidence": "Medium",
+      "differentialDiagnoses": [
+        "Viral pharyngitis",
+        "Allergic rhinitis"
+      ],
+      "riskFactors": [
+        "Not specified"
+      ],
+      "complications": [
+        "Pneumonia (if untreated)",
+        "Sinusitis (if untreated)"
+      ],
+      "urgency": "Non-urgent",
+      "referralNeeded": false
+    },
+    "recommendations": [
+      {
+        "type": "avoidance",
+        "text": "Avoid dry indoor air by using a humidifier.",
+        "priority": "High"
+      },
+      {
+        "type": "treatment",
+        "text": "Use over-the-counter cough suppressants and decongestants as directed.",
+        "priority": "High"
+      },
+      {
+        "type": "symptom",
+        "text": "Rest and drink plenty of warm liquids (e.g., tea, water).",
+        "priority": "High"
+      },
+      {
+        "type": "followup",
+        "text": "If symptoms worsen or do not improve within 7-10 days, consult a healthcare professional.",
+        "priority": "Medium"
+      }
+    ],
+    "diagnosticTests": {
+      "recommended": [
+        "None initially"
+      ],
+      "notRequired": [
+        "X-rays or CT scans at this stage"
+      ]
+    },
+    "treatmentPlan": {
+      "immediate": [
+        "Rest and hydration"
+      ],
+      "longTerm": [
+        "If symptoms persist beyond a week, visit your doctor."
+      ],
+      "lifestyle": [
+        "Avoid triggers like dry air if possible."
+      ]
+    },
+    "followUp": {
+      "nextVisit": "In 7-10 days if symptoms persist or worsen",
+      "emergencyCriteria": [
+        "Difficulty breathing, chest pain, high fever"
+      ],
+      "monitoring": [
+        "Cough severity, fever, and phlegm color and consistency"
+      ]
+    }
+  },
+  "session_summary": {
+    "session_id": "dc2d2c55-0239-47e9-b6b0-3a181f48fc80",
+    "total_questions": 4,
+    "categories_covered": [
+      "chief_complaint",
+      "symptoms_detail",
+      "duration_progression",
+      "aggravating_relieving_factors"
+    ],
+    "final_confidence": 0.8,
+    "generated_at": "2025-08-09 16:25:07"
+  }
+}
