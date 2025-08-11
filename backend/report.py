@@ -532,7 +532,7 @@ def get_diagnosis():
         # Save JSON file to specified directory
         try:
             # Define the target directory and filename
-            target_directory = r"C:\Users\omgos\OneDrive\Desktop\Om\HaskBois\test\public"
+            target_directory = r"D:\HARDDISK\projects\MEDETECT\MeDetect-SyntaxSquad-\medetectweb\public"
             filename = "report.json"
             file_path = os.path.join(target_directory, filename)
             
