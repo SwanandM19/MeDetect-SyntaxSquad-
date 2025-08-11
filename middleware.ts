@@ -20,7 +20,7 @@ export function middleware(request: NextRequest) {
 
 export const config = {
     matcher: [
-        '/',
+        
         '/dashboard', 
         '/analytics', // Added this line
         '/profile',
@@ -28,7 +28,6 @@ export const config = {
         '/signup',
         '/verifyemail',
         '/skin',
-        '/qr',
         '/readqr',
     ]
 }

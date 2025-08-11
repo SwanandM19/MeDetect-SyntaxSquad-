@@ -1,0 +1,210 @@
+{
+  "success": true,
+  "report": {
+    "patient": {
+      "id": "PAT-574998",
+      "name": "Patient Name (Estimated age: 30-40, Gender: Male/Female/Unknown)",
+      "age": 35,
+      "gender": "Male",
+      "location": "City, State",
+      "dateOfReport": "Monday, August 11, 2025 at 08:11 PM IST",
+      "submittedBy": "AI Dermatology Assistant",
+      "contactNumber": "+91 98765 43210",
+      "emergencyContact": "+91 98765 43211",
+      "occupation": "Not specified",
+      "maritalStatus": "Not specified",
+      "bloodGroup": "Unknown",
+      "height": "Not specified",
+      "weight": "Not specified",
+      "bmi": "Not calculated",
+      "allergies": [
+        "None reported"
+      ],
+      "currentMedications": [
+        "None reported"
+      ],
+      "familyHistory": [
+        "No relevant family history reported"
+      ],
+      "lifestyleFactors": {
+        "smoking": false,
+        "alcohol": "Not specified",
+        "diet": "Not specified",
+        "exercise": "Not specified",
+        "sleepPattern": "Not specified",
+        "stressLevel": "Medium",
+        "occupationHazards": [
+          "None reported"
+        ]
+      }
+    },
+    "consultation": {
+      "chiefComplaint": "Fever and Headache",
+      "duration": "1-3 days",
+      "onset": "Gradual",
+      "progression": "Stable",
+      "severity": "Moderate",
+      "impactOnDailyLife": "Significant",
+      "symptoms": [
+        "Fever",
+        "Headache"
+      ],
+      "aggravatingFactors": [
+        "Physical activity",
+        "Hormonal changes"
+      ],
+      "relievingFactors": [
+        "Rest",
+        "Pain relief medication"
+      ],
+      "previousTreatments": [
+        "None reported"
+      ],
+      "medicalHistory": [
+        "None reported"
+      ],
+      "systemicSymptoms": {
+        "fever": true,
+        "fatigue": true,
+        "weightLoss": false,
+        "appetite": "Normal",
+        "sleep": "Impaired"
+      },
+      "psychologicalImpact": {
+        "anxiety": false,
+        "depression": false,
+        "socialIsolation": false,
+        "workImpact": "Mild"
+      }
+    },
+    "physicalFindings": {
+      "affectedAreas": [
+        {
+          "id": 10,
+          "bodyPart": "Head",
+          "name": "Occipital Headache",
+          "description": "Both sides of the head are affected",
+          "severity": "Moderate",
+          "symptoms": [
+            "Pain",
+            "Tenderness"
+          ],
+          "images": [],
+          "distribution": "Localized",
+          "symmetry": "Symmetric",
+          "borders": "Well-defined",
+          "texture": "Normal",
+          "tenderness": "Mild",
+          "temperature": "Normal"
+        },
+        {
+          "id": 20,
+          "bodyPart": "Body",
+          "name": "Generalized Fever",
+          "description": "High-grade fever",
+          "severity": "Moderate",
+          "symptoms": [
+            "Fever",
+            "Chills"
+          ],
+          "images": [],
+          "distribution": "Widespread",
+          "symmetry": "Asymmetric",
+          "borders": "Ill-defined",
+          "texture": "Normal",
+          "tenderness": "None",
+          "temperature": "Elevated"
+        }
+      ],
+      "otherFindings": "Normal vital signs",
+      "vitalSigns": {
+        "temperature": "39.5°C",
+        "pulse": "90/min",
+        "bloodPressure": "140/90 mmHg",
+        "respiratoryRate": "20/min"
+      },
+      "generalExamination": {
+        "consciousness": "Alert and oriented",
+        "hydration": "Well hydrated",
+        "nutrition": "Adequate",
+        "lymphNodes": "Not palpable",
+        "joints": "No swelling or tenderness"
+      }
+    },
+    "assessment": {
+      "likelyDiagnosis": "Viral syndrome (e.g., Common Cold, Influenza)",
+      "confidence": "High",
+      "differentialDiagnoses": [
+        "Bacterial infection",
+        "Allergic reaction"
+      ],
+      "riskFactors": [
+        "Age",
+        "Weakened immune system"
+      ],
+      "complications": [
+        "Pneumonia",
+        "Seizures"
+      ],
+      "urgency": "Non-urgent",
+      "referralNeeded": false
+    },
+    "recommendations": [
+      {
+        "type": "treatment",
+        "text": "Paracetamol or Ibuprofen for pain and fever relief",
+        "priority": "High"
+      },
+      {
+        "type": "symptom",
+        "text": "Stay hydrated, rest, and maintain good hygiene",
+        "priority": "High"
+      },
+      {
+        "type": "followup",
+        "text": "Next visit in 3-5 days for re-evaluation",
+        "priority": "Medium"
+      }
+    ],
+    "diagnosticTests": {
+      "recommended": [
+        "Complete blood count (CBC), viral serology"
+      ],
+      "notRequired": [
+        "None reported"
+      ]
+    },
+    "treatmentPlan": {
+      "immediate": [
+        "Acetaminophen or Ibuprofen for pain and fever relief"
+      ],
+      "longTerm": [
+        "Antiviral medications for severe cases"
+      ],
+      "lifestyle": [
+        "Stay hydrated, rest, and maintain good hygiene"
+      ]
+    },
+    "followUp": {
+      "nextVisit": "3-5 days",
+      "emergencyCriteria": [
+        "Worsening symptoms, difficulty breathing, or high fever"
+      ],
+      "monitoring": [
+        "Symptom progress, vital signs"
+      ]
+    }
+  },
+  "session_summary": {
+    "session_id": "d3629d4c-2da3-431f-a6f8-a7cbd0acd5e6",
+    "total_questions": 4,
+    "categories_covered": [
+      "chief_complaint",
+      "symptoms_detail",
+      "duration_progression",
+      "aggravating_relieving_factors"
+    ],
+    "final_confidence": 0.8,
+    "generated_at": "2025-08-11 20:11:27"
+  }
+}
